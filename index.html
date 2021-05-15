@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./bootstrap.min (1).css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center text-primary fw-bold mt-5">My Todo App</h1>
+        <div class="input-field d-flex  align-items-center justify-content-center" id="inputFields">
+            <input type="text" id="inputedText" class="form-control mt-5" placeholder="Enter your work to do :">
+            <input type="text" class="form-control mt-5 w-25" id="user" placeholder="yourName :">
+            <input type="submit" name="submit" class="btn btn-primary mt-5" value="Add to list" id="send">
+        </div>
+        <div class="tableBox">
+
+            <table class="table mt-5">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Work</th>
+                        <th>Date</th>
+                        <th>User</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="itemsBox">
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
